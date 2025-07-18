@@ -1,0 +1,15 @@
+from fastapi import APIRouter, HTTPException
+from models.request import WebsiteInput
+from models.response import BrandResponse
+from services.scraper import scrape_shopify_store
+
+router = APIRouter()
+
+@router.post("/scrape_store", response_model=BrandResponse)
+def scrape_store(input: WebsiteInput):
+    try:
+        return scrape_shopify_store(input.website_url)
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
