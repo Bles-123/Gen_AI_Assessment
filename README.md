@@ -21,7 +21,7 @@ Scrapes data from a given Shopify store and returns structured JSON.
 
 **Example Request and Response:**
 
-![Scrape Store - Request & Response](images/Screenshot 2025-07-18 153654.png)
+![Scrape Store - Request & Response](images/Screenshot%2025-07-18%153654.png)
 
 ---
 
