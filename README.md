@@ -23,6 +23,15 @@ Scrapes data from a given Shopify store and returns structured JSON.
 
 ![Scrape Store - Request & Response](images/Screenshot 2025-07-18 153716.png)
 
+![POST Body Input](images/Screenshot%202025-07-18%20153654.png)
+
+![Scraped Response Preview](images/Screenshot%202025-07-18%20153716.png)
+
+![Product Catalog Example](images/Screenshot%202025-07-18%20153738.png)
+
+![Schema & Validation Error](images/Screenshot%202025-07-18%20153757.png)
+
+
 ---
 
 
