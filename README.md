@@ -6,14 +6,6 @@ This is a FastAPI-based service that scrapes a Shopify store and returns structu
 
 ## 🚀 API Overview
 
-### ✅ POST `/scrape_store`
-Scrapes data from a given Shopify store and returns structured JSON.
-
-**Example Request and Response:**
-
-![Scrape Store - Request & Response](images/Screenshot 2025-07-18 153654.png)
-
----
 
 ## 📘 Swagger UI
 
@@ -21,6 +13,15 @@ Scrapes data from a given Shopify store and returns structured JSON.
 The root endpoint gives basic API info.
 
 ![Root Endpoint Swagger](images/Screenshot%202025-07-18%20153557.png)
+
+---
+
+### ✅ POST `/scrape_store`
+Scrapes data from a given Shopify store and returns structured JSON.
+
+**Example Request and Response:**
+
+![Scrape Store - Request & Response](images/Screenshot 2025-07-18 153654.png)
 
 ---
 
